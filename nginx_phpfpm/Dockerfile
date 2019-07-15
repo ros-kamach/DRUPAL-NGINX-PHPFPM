@@ -21,9 +21,12 @@ RUN unzip drupal-8.7.4.zip && \
     php composer-setup.php --install-dir=/usr/local/bin --filename=composer && \
     composer install --no-progress --profile --prefer-dist && \
     chown -R nginx:nginx /usr/share/nginx/html
+COPY ./template/opcache /usr/share/nginx/opcache
+RUN cat ./opcache >> /etc/php.ini && rm ./opcache
   
 
 COPY ./template/default /etc/nginx/conf.d/default.conf
 
 EXPOSE 80
 ENTRYPOINT [ "script.sh" ]
+
