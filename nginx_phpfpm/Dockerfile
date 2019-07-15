@@ -1,5 +1,7 @@
 FROM roskamach/centos_baseimage
 
+MAINTAINER Rostylav Kamach <ros.kamach@gmail.com>
+
 RUN yum update -y && \
     yum install -y \
     curl \
