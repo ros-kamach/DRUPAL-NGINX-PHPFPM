@@ -4,7 +4,7 @@
      - install PHP requirements for Drupal 8
      - install Drupal 8
           
-   Image Size=570MB
+   Image Size=447MB
    
    - Use image "mysql:8.0.16"
    - Use image "phpmyadmin"
