@@ -1,5 +1,5 @@
 #**Branch "[ubuntu_build](https://github.com/ros-kamach/drupal_nginx_phpfpm/tree/ubuntu_build)"**
-   - Build image based on "roskamach/ubuntu_baseimage" (Ubuntu+Nhinx+PHPFPM)
+   - Build image based on "roskamach/ubuntu_baseimage" (Ubuntu+Nhinx+PHPFPM Size=259MB)
      - install Composer
      - install PHP requirements for Drupal 8
      - install Drupal 8
