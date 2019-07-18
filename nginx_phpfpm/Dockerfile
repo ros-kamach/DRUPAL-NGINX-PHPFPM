@@ -11,7 +11,7 @@ WORKDIR /usr/share/nginx/
 
 RUN \
     echo "Update pachages list" && echo "###" && \
-    yum update -y > /dev/null 2>&1 && \
+    yum update -y s && \
     ###
     echo "Install required packages" && echo "###" && \
     yum install -y \
