@@ -7,7 +7,7 @@
    - Use image "phpmyadmin"
    
 #**Branch "[centos_build](https://github.com/ros-kamach/drupal-nginx-phpfpm/tree/centos_build)"**
-   - Build image based on  "roskamach/centos_baseimage" (Centos+Nhinx+PHPFPM Size=347)
+   - Build image based on  "roskamach/centos_baseimage" (Centos+Nhinx+PHPFPM Size=347MB)
      - install Composer
      - install PHP requirements for Drupal 8
      - install Drupal 8
