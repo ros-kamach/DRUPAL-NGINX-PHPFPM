@@ -1,12 +1,17 @@
 #**Branch "[ubuntu_build](https://github.com/ros-kamach/drupal-nginx-phpfpm/tree/ubuntu_build)"**
-   - Use image "roskamach/ubuntu_baseimage" (Ubuntu+Nhinx+PHPFPM)
-   - Build image based on "roskamach/ubuntu_baseimage" installed Composer&Drupal 
+   - Build image based on "roskamach/ubuntu_baseimage" (Ubuntu+Nhinx+PHPFPM)
+     - install Composer
+     - install PHP requirements for Drupal 8
+     - install Drupal 8
    - Use image "mysql:8.0.16"
    - Use image "phpmyadmin"
    
 #**Branch "[centos_build](https://github.com/ros-kamach/drupal-nginx-phpfpm/tree/centos_build)"**
-   - Use image "roskamach/centos_baseimage" (Centos+Nhinx+PHPFPM Size = 570MB)
-   - Build image based on "roskamach/ubuntu_baseimage" installed Composer&Drupal 
+   - Build image based on  "roskamach/centos_baseimage" (Centos+Nhinx+PHPFPM Size=347)
+     - install Composer
+     - install PHP requirements for Drupal 8
+     - install Drupal 8
+       Image Size=570MB    
    - Use image "mysql:8.0.16"
    - Use image "phpmyadmin"
  
