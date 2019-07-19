@@ -14,7 +14,7 @@ RUN \
     yum update -y s && \
     ###
     echo "Install required packages" && echo "###" && \
-    yum install -y \
+    yum install -y > /dev/null 2>&1 \
     curl \
     git \
     unzip > /dev/null 2>&1 && \
